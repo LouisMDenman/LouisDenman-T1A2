@@ -144,5 +144,9 @@ button {
     border-color: var(--lavender);
 }
 
+p {
+    margin: 1em;
+}
+
 
 
