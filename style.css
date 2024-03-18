@@ -1,0 +1,79 @@
+:root {
+    --grey: #525252;
+    --green: #71A47A;
+    --violet: #9101F9;
+    --lavender: #B57EDC;
+    --cyan: #02BBEF;
+    font-family: Arial, Helvetica, sans-serif;
+    --bar-width: 3em;
+    --bar-height: 0.5em;
+    --navmenu-gap: 0.2em;
+    --navmenu-margin: 0.5em;
+}
+
+body {
+    margin: 0;
+    background-color: var(--grey);
+}
+
+header {
+    background: var(--grey);
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--navmenu-gap);
+    width: max-content;
+    position: absolute;
+    top: var(--navmenu-margin);
+    left: var(--navmenu-margin);
+    z-index: 2;
+}
+
+.navmenu::after, .navmenu::before, .navmenu input {
+    content:"";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--violet);
+    border-radius: 9999px;
+}
+
+.navmenu input {
+    appearance: none;
+    pointer-events: none;
+}
+
+aside {
+    transition: translate 2s;
+}
+
+.sidebar {
+    transition: translate 2s;
+    translate: -100%;
+    padding-top: 2.5em;
+    background-color: var(--grey);
+    max-width: 40%;
+    height: 4dvh;
+}
+
+nav{
+    display:flex;
+    flex-direction: column;
+}
+
+nav > a {
+    text-decoration: none;
+    background-color:red;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+.navmenu:has(input:checked) + .sidebar {
+    translate:0;
+    background-color: red;
+}
+
+
