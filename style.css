@@ -1,5 +1,5 @@
 :root {
-    --grey: #525252;
+    --grey: #a19f9f;
     --green: #71A47A;
     --violet: #9101F9;
     --lavender: #B57EDC;
@@ -12,12 +12,22 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     background-color: var(--grey);
 }
 
 header {
     background: var(--grey);
+}
+
+footer {
+    font-size: 0.5em;
+    position: fixed;
+    bottom: 0;
+    text-align: right;
+    width: 100%
 }
 
 .navmenu {
@@ -74,6 +84,14 @@ nav > a {
 .navmenu:has(input:checked) + .sidebar {
     translate:0;
     background-color: red;
+}
+
+.centerimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
 }
 
 
