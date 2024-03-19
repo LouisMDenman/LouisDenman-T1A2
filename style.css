@@ -33,6 +33,7 @@ footer {
 
 a {
     text-decoration: none;
+    color: var(--lavender);
 }
 
 .navmenu {
@@ -116,6 +117,8 @@ main > img {
 h1 {
     font-size: 4em;
     margin: auto;
+    max-width: 90%;
+    text-align: center
 }
 
 h3 {
