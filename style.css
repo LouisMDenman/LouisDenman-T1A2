@@ -92,6 +92,11 @@ main > * {
     margin: 1em;
 }
 
+main > p {
+    text-align: left;
+    line-height: 1.2em;
+}
+
 main > p > a {
     text-decoration: none;
     color: var(--cyan);
@@ -108,9 +113,12 @@ main > p > a {
     margin: 1em;
 }
 
+.cards > a {
+    text-decoration: none;
+}
+
 .cardtext > p {
     margin: 1em;
-    text-decoration: none;
     color: white;
 }
 
