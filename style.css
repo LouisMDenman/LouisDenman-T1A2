@@ -60,7 +60,13 @@ footer {
     background-color: var(--grey);
     height: 3dvh;
     width: 100%;
-    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+footer > p {
+    padding-right: 0.5em;
 }
 
 main {
@@ -83,6 +89,30 @@ main > img {
 
 main > * {
     margin: 1em;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green);
+    width: 20em;
+    height: 15em;
+    margin: 1em;
+}
+
+.cardtext > p {
+    margin: 1em;
+    text-decoration: none;
+    color: white;
 }
 
 h1 {
