@@ -47,7 +47,7 @@ nav > a {
     text-decoration: none;
     color: white;
     background-color: var(--green);
-    font-size: 0.6em;
+    font-size: 2.5dvw;
     width: 19dvw;
     height: 6dvh;
     display: flex;
@@ -91,6 +91,11 @@ main > * {
     margin: 1em;
 }
 
+main > p > a {
+    text-decoration: none;
+    color: red;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
@@ -116,11 +121,11 @@ main > * {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 15dvw;
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 5dvw;
 }
 
 
