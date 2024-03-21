@@ -13,6 +13,7 @@
 
 * {
     margin: 0;
+    color: white;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
 }
 
 header {
-    background-color: var(--cyan);
+    background-color: var(--grey);
     height: 7dvh;
     width: 100%;
     text-align: center;
@@ -45,18 +46,18 @@ nav {
 nav > a {
     text-decoration: none;
     color: white;
-    background-color: var(--green);
+    background-color: var(--violet);
     font-size: 0.7em;
     width: 19dvw;
     height: 6dvh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.1em solid black;
+    border: 0.1em solid white;
 }
 
 footer {
-    background-color: var(--grey);
+    background-color: var(--violet);
     height: 3dvh;
     width: 100%;
     display: flex;
@@ -69,7 +70,7 @@ footer > p {
 }
 
 main {
-    background-color: var(--violet);
+    background-color: var(--grey);
     min-height: 90dvh;
     width: 100%;
     display: flex;
@@ -84,6 +85,7 @@ main > img {
     margin-top: 3em;
     border-radius: 100%;
     object-fit: cover;
+    border: 1px solid white;
 }
 
 main > * {
@@ -92,7 +94,7 @@ main > * {
 
 main > p > a {
     text-decoration: none;
-    color: red;
+    color: var(--cyan);
 }
 
 .cardtext {
@@ -100,7 +102,7 @@ main > p > a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--green);
+    background-color: var(--cyan);
     width: 70dvw;
     height: 30dvh;
     margin: 1em;
@@ -118,6 +120,12 @@ h1 {
 
 h3 {
     font-size: 1.5em;
+}
+
+button {
+    background-color: var(--violet);
+    color: white;
+    border: 1px solid white;
 }
 
 @media screen and (min-width: 700px) {
