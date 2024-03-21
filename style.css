@@ -11,6 +11,90 @@
     --navmenu-margin: 0.5em;
 }
 
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    background-color: var(--cyan);
+    height: 7dvh;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--green);
+    font-size: 0.6em;
+    width: 19dvw;
+    height: 6dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1em solid black;
+}
+
+footer {
+    background-color: var(--grey);
+    height: 3dvh;
+    width: 100%;
+    text-align: right;
+}
+
+main {
+    background-color: var(--violet);
+    min-height: 90dvh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > img {
+    height: 35dvh;
+    width: auto;
+    margin: 1em;
+    margin-top: 3em;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+main > * {
+    margin: 1em;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+
+/*
 body {
     display: flex;
     flex-direction: column;
@@ -167,4 +251,4 @@ p {
     font-size: 2em;
     color: black;
 }
-
+*/
