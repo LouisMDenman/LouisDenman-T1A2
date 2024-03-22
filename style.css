@@ -170,6 +170,11 @@ main > section > section > p {
     font-size: 0.7em;
 }
 
+.listmcj {
+    min-width: 20em;
+    text-align: left;
+}
+
 @media screen and (min-width: 700px) {
 
     .cards {
