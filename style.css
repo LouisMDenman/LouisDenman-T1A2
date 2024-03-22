@@ -190,4 +190,10 @@ main > section > section > p {
         margin: 1em;
     }
 
+    main > p {
+        text-align: left;
+        line-height: 1.2em;
+        max-width: 60%;
+    }
+
 }
