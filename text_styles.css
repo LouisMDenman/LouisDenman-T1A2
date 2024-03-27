@@ -1,4 +1,4 @@
-/* Navbar Text*/
+/* Component 1: Navbar Text*/
 nav > a {
     text-decoration: none;
     color: white;
@@ -23,35 +23,35 @@ main > p {
     line-height: 1.2em;
 }
 
-/* Main Text Links */
+/* Component 2: Main Text Links */
 main > p > a {
     text-decoration: none;
     color: var(--cyan);
 }
 
-/* Cards For Work Experience And Blogs Text */
+/* Component 3: Cards For Work Experience And Blogs Text */
 .cards > a {
     text-decoration: none;
 }
 
-/* Cards For Work Experience And Blogs Text */
+/* Component 3: Cards For Work Experience And Blogs Text */
 .cardtext > p {
     margin: 1em;
     color: white;
 }
 
-/* Blog Text */
+/* Blog Header Date Text */
 main > section > section > p {
     font-size: 0.7em;
 }
 
-/* Dot Point Lists */
+/* Component 4: Dot Point Lists */
 .listmcj {
     min-width: 20em;
     text-align: left;
 }
 
-/* Header For Blog Section*/
+/* Component 5: Header For Blog Section */
 .blogheader {
     display: flex;
     flex-direction: row;
