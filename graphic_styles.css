@@ -47,8 +47,8 @@ button {
 
 /* Component 6: Image Within Blog and KFC Section */
 main > figure > img {
-    height: 80%;
-    width: 80%;
+    height: 60%;
+    width: 60%;
     object-fit: cover;
     margin-right: 1em;
     margin-left: 1em;
