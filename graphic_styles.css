@@ -46,7 +46,7 @@ button {
 }
 
 /* Image Within Blog Section */
-main > section > img {
+main > figure > img {
     height: 80%;
     width: 80%;
     object-fit: cover;
