@@ -1,0 +1,60 @@
+/* Navbar Text*/
+nav > a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--violet);
+    font-size: 0.7em;
+    width: 19dvw;
+    height: 6dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1em solid white;
+}
+
+/* Footer Text */
+footer > p {
+    padding-right: 0.5em;
+}
+
+/* Main Text */
+main > p {
+    text-align: left;
+    line-height: 1.2em;
+}
+
+/* Main Text Links */
+main > p > a {
+    text-decoration: none;
+    color: var(--cyan);
+}
+
+/* Cards For Work Experience And Blogs Text */
+.cards > a {
+    text-decoration: none;
+}
+
+/* Cards For Work Experience And Blogs Text */
+.cardtext > p {
+    margin: 1em;
+    color: white;
+}
+
+/* Blog Text */
+main > section > section > p {
+    font-size: 0.7em;
+}
+
+/* Dot Point Lists */
+.listmcj {
+    min-width: 20em;
+    text-align: left;
+}
+
+/* Header For Blog Section*/
+.blogheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
