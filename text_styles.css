@@ -58,3 +58,21 @@ main > section > section > p {
     justify-content: center;
     align-items: center;
 }
+
+/* Screen Sizing Desktop */
+@media screen and (min-width: 700px) {
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main > p {
+        text-align: left;
+        line-height: 1.2em;
+        max-width: 60%;
+    }
+
+}
