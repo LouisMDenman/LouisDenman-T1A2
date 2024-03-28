@@ -7,6 +7,11 @@ nav {
 
 }
 
+/* Navbar Hover Effect */
+nav > a:hover {
+    background-color: var(--cyan);
+}
+
 /* Component 2: All Images In Main Sections */
 main > img {
     height: 35dvh;
@@ -28,6 +33,13 @@ main > img {
     width: 70dvw;
     height: 30dvh;
     margin: 1em;
+}
+
+/* Card Hover Effect */
+.cardtext:hover {
+    transition: 1s;
+    background-color: var(--violet);
+    filter: drop-shadow(10px 10px var(--cyan))
 }
 
 /*Component 4: Buttons*/
